@@ -1,10 +1,12 @@
+# SmsMatrix bot
+
 Up to date info about SmsMatrix itself: https://github.com/tijder/SmsMatrix
 
 ## What?
 
 An SMS<->Matrix bot for receiving and sending SMS messages with Matrix-client
 
-# Set up
+## Set up
 - Install SmsMatrix app (apk can be found by [releases](https://github.com/tijder/SmsMatrix/releases) or from [f-droid](https://f-droid.org/app/eu.droogers.smsmatrix)) (F-Droid preferred)
 - Give the app the app permission
 - Type in the needed info in the app
