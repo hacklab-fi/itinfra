@@ -10,7 +10,7 @@ Matrix is versatile federated IM-protocol and we offer Matrix homeserver and ser
 [Registering an user](#registering-an-user)\
 [Clients](#clients)\
 [Login](#login)\
-[Bridges](#bridges)\
+[Bridges](#bridges)
 
 ## General about matrix terminology
 
