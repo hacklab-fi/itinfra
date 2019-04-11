@@ -6,17 +6,17 @@ Matrix is versatile federated IM-protocol and we offer Matrix homeserver and ser
 
 ## Contents
 
-[General about matrix terminology](#general-about-matrix-terminology)
-[Registering an user](#registering-an-user)
-[Clients](#clients)
-[Login](#login)
-[Bridges](#bridges)
+[General about matrix terminology](#general-about-matrix-terminology)\
+[Registering an user](#registering-an-user)\
+[Clients](#clients)\
+[Login](#login)\
+[Bridges](#bridges)\
 
 ## General about matrix terminology
 
 ### MXID
 
-Matrix user id is called MXID, and it constructs from username and domain part, which are inseparable. This means that where ever in general you need to input your MXID. This means that user id is for example: `@example:hacklab.fi`
+Matrix user id is called MXID, and it constructs from username and domain part, which are inseparable. This means that where ever in you need to input your MXID it should be in format: `@example:hacklab.fi`
 
 ### User domain
 
