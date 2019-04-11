@@ -56,3 +56,10 @@ If manual server settings are needed, they are:
 ## Bridges
 
 Matrix has awesome integration for various other Chat/IM networks and services, called bridges, which makes using matrix an killer thing. IRC is offered pretty much baked in into Matrix, and for finnish Hacklab members we offer also bridges for Telegram, Whatsapp and SMS. There is also on-going effort to offer Slack bridging, and more can be added if installable bridge-services exists.
+
+Links to specific bridge instructions:
+
+- IRC: https://github.com/matrix-org/matrix-appservice-irc/wiki
+- Telegram: To be made
+- Whatsapp: To be made
+- SMS: [matrix-smsbot.md](matrix-smsbot.md)
