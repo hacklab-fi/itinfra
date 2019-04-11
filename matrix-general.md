@@ -1,0 +1,58 @@
+# Hacklab.fi Matrix general instructions
+
+## What?
+
+Matrix is versatile federated IM-protocol and we offer Matrix homeserver and services to Finnish hacklab members. Matrix also supports bridges, both puppeted and relaybot, to various other networks and systems, like IRC, Telegram, Whatsapp, SMS, etc for example.
+
+## Contents
+
+[General about matrix terminology](#general-about-matrix-terminology)
+[Registering an user](#registering-an-user)
+[Clients](#clients)
+[Login](#login)
+[Bridges](#bridges)
+
+## General about matrix terminology
+
+### MXID
+
+Matrix user id is called MXID, and it constructs from username and domain part, which are inseparable. This means that where ever in general you need to input your MXID. This means that user id is for example: `@example:hacklab.fi`
+
+### User domain
+
+User domain is the designated domain name in MXID, in our case `hacklab.fi`
+
+### Homeserver
+
+Homeserver is the matrix-server catering hacklab.fi users, in our case `matrix.hacklab.fi`
+
+### Users, rooms and communities
+
+In Matrix usernames allways starts with `@` -sign, rooms with `#` -sign and communities with `+` -sign
+
+## Registering an user
+
+- Surf to [hacklab.fi Matrix user registration](https://matrix.hacklab.fi) website
+- Fill out your details
+  - Figure an username (only name, no domain here)
+  - Select which hacklab you are member of
+  - Figure out password
+  - Provide an known Invite token, this can be acuired from your hacklab
+- Press register
+- Status-page appears telling you either success or failure, and reason for failure if so.
+
+## Clients
+
+There are many clients programs for diffirent platforms and personal tastes available. Reference client is Riot, which is available for computers, phones and we also offer an web-instance at https://riot.hacklab.fi
+
+## Login
+
+Most matrix clients supports automatic discovery of server settings when you give your full MXID as username, so often times it is enough to type in the `@example:hacklab.fi` as username and your password.
+
+If manual server settings are needed, they are:
+- Homeserver URL: `https://matrix.hacklab.fi`
+- Identity Server URL: `https://vector.im`
+
+## Bridges
+
+Matrix has awesome integration for various other Chat/IM networks and services, called bridges, which makes using matrix an killer thing. IRC is offered pretty much baked in into Matrix, and for finnish Hacklab members we offer also bridges for Telegram, Whatsapp and SMS. There is also on-going effort to offer Slack bridging, and more can be added if installable bridge-services exists.
