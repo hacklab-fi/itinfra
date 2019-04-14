@@ -60,6 +60,7 @@ Matrix has awesome integration for various other Chat/IM networks and services, 
 Links to specific bridge instructions:
 
 - IRC: https://github.com/matrix-org/matrix-appservice-irc/wiki
-- Telegram: To be made
-- Whatsapp: To be made
+- Telegram: [matrix-telegram.md](matrix-telegram.md)
+- Whatsapp: [matrix-whatsapp.md](matrix-whatsapp.md)
 - SMS: [matrix-smsbot.md](matrix-smsbot.md)
+- Slack: Comes when slack-appservice actually works properly
