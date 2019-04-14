@@ -57,6 +57,8 @@ If manual server settings are needed, they are:
 
 Matrix has awesome integration for various other Chat/IM networks and services, called bridges, which makes using matrix an killer thing. IRC is offered pretty much baked in into Matrix, and for finnish Hacklab members we offer also bridges for Telegram, Whatsapp and SMS. There is also on-going effort to offer Slack bridging, and more can be added if installable bridge-services exists.
 
+Hacklab member using `hacklab.fi` homeserver, thus having MXID of `@user:hacklab.fi`, has automatic access to use bridges trough hacklab.fi servers, hacklab members using some other homeserver need to ask to be added into bridge(s) manually, ask more in Matrix channel: [#general:hacklab.fi](https://matrix.to/#/#general:hacklab.fi)
+
 Links to specific bridge instructions:
 
 - IRC: https://github.com/matrix-org/matrix-appservice-irc/wiki
