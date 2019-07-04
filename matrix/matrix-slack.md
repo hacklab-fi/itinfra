@@ -1,6 +1,6 @@
 # Matrix<->Slack bridge
 
-Up to date info about Mautrix-telegram itself: [matrix-smsbot.md](matrix-smsbot.md)
+Up to date info about matrix-appservice-slack itself: https://github.com/matrix-org/matrix-appservice-slack
 
 ## What?
 
