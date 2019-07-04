@@ -64,5 +64,6 @@ Links to specific bridge instructions:
 - IRC: https://github.com/matrix-org/matrix-appservice-irc/wiki
 - Telegram: [matrix-telegram.md](matrix-telegram.md)
 - Whatsapp: [matrix-whatsapp.md](matrix-whatsapp.md)
+- Facebook: [matrix-facebook.md](matrix-facebook.md)
 - SMS: [matrix-smsbot.md](matrix-smsbot.md)
-- Slack: Comes when slack-appservice actually works properly
+- Slack: [matrix-slack.md](matrix-slack.md)
