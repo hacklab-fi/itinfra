@@ -32,14 +32,12 @@ In Matrix usernames allways starts with `@` -sign, rooms with `#` -sign and comm
 
 ## Registering an user
 
-- Surf to [hacklab.fi Matrix user registration](https://matrix.hacklab.fi) website
+- Surf to [hacklab.fi Matrix user registration](https://matrix.hacklab.fi/register) website
 - Fill out your details
   - Figure an username (only name, no domain here)
-  - Select which hacklab you are member of
   - Figure out password
   - Provide an known Invite token, this can be acuired from your hacklab
 - Press register
-- Status-page appears telling you either success or failure, and reason for failure if so.
 
 ## Clients
 
@@ -51,7 +49,7 @@ Most matrix clients supports automatic discovery of server settings when you giv
 
 If manual server settings are needed, they are:
 - Homeserver URL: `https://matrix.hacklab.fi`
-- Identity Server URL: `https://vector.im`
+- Identity Server URL: blank/none
 
 ## Bridges
 
