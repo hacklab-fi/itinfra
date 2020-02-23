@@ -2,7 +2,9 @@
 
 ## What?
 
-Matrix is versatile federated IM-protocol and we offer Matrix homeserver and services to Finnish hacklab members. Matrix also supports bridges, both puppeted and relaybot, to various other networks and systems, like IRC, Telegram, Whatsapp, SMS, etc for example.
+Matrix is versatile federated instant messaging protocol and we offer Matrix homeserver and services to Finnish hacklab members. 
+
+Matrix also supports bridges, both puppeted and relaybot, to various other networks and systems, like IRC, Telegram, Whatsapp, SMS, etc for example.
 
 ## Contents
 
@@ -65,3 +67,4 @@ Links to specific bridge instructions:
 - Facebook: [matrix-facebook.md](matrix-facebook.md)
 - SMS: [matrix-smsbot.md](matrix-smsbot.md)
 - Slack: [matrix-slack.md](matrix-slack.md)
+- Discord: [matrix-discord.md](matrix-discord.md)
