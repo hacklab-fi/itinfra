@@ -6,7 +6,7 @@ An Matrix<->Discord bridge for receiving and sending Discord messages with Matri
 
 ## Set up
 
-- Get Power Level 100 in Matrix room (not sure why bridge wants that..)
+- Get Power Level 50 in Matrix room (not sure why bridge wants that..)
 - You also need to be admin at Discord channel or have a admin to help you
 - Get a invite link from one of Hacklab.fi admins at #matrix:hacklab.fi. Don't spread the link as it can be used to invite the bot to any Discord room.
 - Invite the bridge to your Discord server using the link. The bridge will need all the permissions selected.
