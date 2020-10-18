@@ -65,6 +65,7 @@ Links to specific bridge instructions:
 - Telegram: [matrix-telegram.md](matrix-telegram.md)
 - Whatsapp: [matrix-whatsapp.md](matrix-whatsapp.md)
 - Facebook: [matrix-facebook.md](matrix-facebook.md)
+- Signal: [matrix-signal.md](matrix-signal.md)
 - SMS: [matrix-smsbot.md](matrix-smsbot.md)
 - Slack: [matrix-slack.md](matrix-slack.md)
 - Discord: [matrix-discord.md](matrix-discord.md)
