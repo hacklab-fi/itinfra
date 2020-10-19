@@ -43,7 +43,7 @@ In Matrix usernames allways starts with `@` -sign, rooms with `#` -sign and comm
 
 ## Clients
 
-There are many clients programs for diffirent platforms and personal tastes available. Reference client is Riot, which is available for computers, phones and we also offer an web-instance at https://riot.hacklab.fi
+There are many clients programs for diffirent platforms and personal tastes available. Reference client is Element, which is available for computers, phones and we also offer an web-instance at https://chat.hacklab.fi
 
 ## Login
 
