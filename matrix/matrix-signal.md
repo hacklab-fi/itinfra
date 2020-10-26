@@ -3,7 +3,7 @@
 Up to date info about Mautrix-signal itself: https://github.com/tulir/mautrix-signal
 ## What?
 
-An Matrix<->signal bridge for receiving and sending signal messages with Matrix-client, bridging groupchats, puppeting.. At the time of writing still pretty early version, most notably at the moment initiating new chat is not posible on matrix-side, but that doesn't stop you using it when others talk to you first, and also:
+An Matrix<->signal bridge for receiving and sending signal messages with Matrix-client, bridging groupchats, puppeting.. At the time of writing still pretty early version, but basic functionality exist and should work, like start chat from matrix, using as primary or linked device (signal stuff), direct messaging and group chats
 
 ## Set up
 - On matrix: Open chat with `@signalbot:hacklab.fi`
