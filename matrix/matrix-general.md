@@ -28,9 +28,9 @@ User domain is the designated domain name in MXID, in our case `hacklab.fi`
 
 Homeserver is the matrix-server catering hacklab.fi users, in our case `matrix.hacklab.fi`
 
-### Users, rooms and communities
+### Users, rooms and spaces
 
-In Matrix usernames allways starts with `@` -sign, rooms with `#` -sign and communities with `+` -sign
+In Matrix usernames allways starts with `@` -sign, rooms an spaces with `#` -sign
 
 ## Registering an user
 
