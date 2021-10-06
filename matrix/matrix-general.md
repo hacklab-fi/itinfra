@@ -34,12 +34,18 @@ In Matrix usernames allways starts with `@` -sign, rooms with `#` -sign and comm
 
 ## Registering an user
 
-- Surf to [hacklab.fi Matrix user registration](https://matrix.hacklab.fi/register) website
-- Fill out your details
-  - Figure an username (only name, no domain here)
-  - Figure out password
-  - Provide an known Invite token, this can be acuired from your hacklab
-- Press register
+- Primary method:
+  - Surf to [hacklab.fi Element login](https://chat.hacklab.fi/#/login) and select `Continue with Hacklab Finland Keycloak`
+  - Your local Hacklab should have implemented Single Sign-On method that is used by our Matrix-server login-flow, if not, nag them hard ;)
+  - after SSO-autorization figure an username and continue
+ 
+- Secondary method, eventually obsoleted:
+  - Surf to [hacklab.fi Matrix user registration](https://matrix.hacklab.fi/register) website
+  - Fill out your details
+    - Figure an username (only name, no domain here)
+    - Figure out password
+    - Provide an known Invite token, this can be acuired from your Hacklab
+  - Press register
 
 ## Clients
 
