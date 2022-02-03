@@ -7,16 +7,18 @@ We use /opt/ for base home folder for system users, give it nologin as shell, et
 # Getting shell as system user for admin to do thing as the user
 `sudo -Hu username /bin/bash`
 
-## Same can be used to run psql on postgres user directly
+Same can be used to run psql on postgres user directly
 `sudo -Hu postgres psql`
 
-# We've used "directly on the host" installations for everything, following given documentation per bot or automaton, provides update instructions too
+# Software installations
+
+We've used apt repositories where possible and rest is "directly on the host" installations, following given documentation per bot or automaton, provides update instructions too
 
 Links to most of them:
 
-mautrix-bridges: https://docs.mau.fi/bridges/index.html
-mx-puppet-discord: https://github.com/matrix-discord/mx-puppet-discord
-appservice-slack: https://matrix-appservice-slack.readthedocs.io/en/latest/getting_started/
+mautrix-bridges: https://docs.mau.fi/bridges/index.html  
+mx-puppet-discord: https://github.com/matrix-discord/mx-puppet-discord  
+appservice-slack: https://matrix-appservice-slack.readthedocs.io/en/latest/getting_started/  
 heisenbridge: https://github.com/hifi/heisenbridge
 
 # SSH related
@@ -24,3 +26,9 @@ heisenbridge: https://github.com/hifi/heisenbridge
 We allow only publickey auth and user needs to belong into `ssh-user` group in order to connect into server with SSH
 
 SSH server related settings resides in `/etc/ssh/sshd_config.d/` "confd" directory, edit settings in files under that dir and **not** directly `/etc/ssh/sshd_config` file. Same goes for possible client settings (ssh_config.d/).
+
+# DNS resolving
+
+We run Bind9/named as resolving DNS-server to provide credible DNSSEC resolving and OCSP-stapling.
+
+If you need to define DNS-server to some service, use `localhost` or it's IP-variations `127.0.0.1` and `::1`.
