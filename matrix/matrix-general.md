@@ -67,11 +67,15 @@ Hacklab member using `hacklab.fi` homeserver, thus having MXID of `@user:hacklab
 
 Links to specific bridge instructions:
 
-- IRC: https://github.com/matrix-org/matrix-appservice-irc/wiki
+- IRC: Heisenbridge, appservice-irc: https://github.com/hifi/heisenbridge https://github.com/matrix-org/matrix-appservice-irc/wiki
 - Telegram: [matrix-telegram.md](matrix-telegram.md)
 - Whatsapp: [matrix-whatsapp.md](matrix-whatsapp.md)
 - Facebook: [matrix-facebook.md](matrix-facebook.md)
 - Signal: [matrix-signal.md](matrix-signal.md)
-- SMS: [matrix-smsbot.md](matrix-smsbot.md)
 - Slack: [matrix-slack.md](matrix-slack.md)
 - Discord: [matrix-discord.md](matrix-discord.md)
+- GMessages: [matrix-gmessages.md](matrix-gmessages.md) (Links Google Messages to your Matrix, both SMS and RCS)
+
+Historical / deprecated:
+
+- SMS: We used to have "smsbot", doesn't scale and was impossible to setup without admin involvement.
