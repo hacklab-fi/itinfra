@@ -5,7 +5,7 @@ We use /opt/ for base home folder for system users, give it nologin as shell, et
 `sudo useradd --shell /usr/sbin/nologin --system --user-group --create-home --comment "Service longname" --home-dir /opt/servicehomedir username`
 
 # Getting shell as system user for admin to do thing as the user
-`sudo -Hu username /bin/bash`
+`sudo -Hu username /bin/bash -l`
 
 Same can be used to run psql on postgres user directly
 `sudo -Hu postgres psql`
