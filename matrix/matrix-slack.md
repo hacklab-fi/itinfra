@@ -1,9 +1,7 @@
 # Matrix<->Slack bridge
 
-## Mautrix-slack
-Mautrix-slack (puppeting bridge, channel bridging is coming), Mautrix-slack is recommended for new setups, Appservice-slack is deprecated.
-
 ## Mautrix-slack:
+Mautrix-slack (puppeting bridge, channel bridging is not available), Mautrix-slack is recommended for new setups, Appservice-slack is deprecated.
 
 Up to date info about Mautrix-slack itself: https://docs.mau.fi/bridges/go/slack/index.html
 
