@@ -1,8 +1,7 @@
 # Matrix<->Slack bridge
 
-## 2 Options
-
-Now we have 2 options, there is the older Appservice-slack (mostly for bridging channels), and newer Mautrix-slack (puppeting bridge, channel bridging is coming), Mautrix-slack is recommended for new setups, Appservice-slack will be deprecated in the future.
+## Mautrix-slack
+Mautrix-slack (puppeting bridge, channel bridging is coming), Mautrix-slack is recommended for new setups, Appservice-slack is deprecated.
 
 ## Mautrix-slack:
 
@@ -10,23 +9,18 @@ Up to date info about Mautrix-slack itself: https://docs.mau.fi/bridges/go/slack
 
 ## What?
 
-An Matrix<->Slack bridge for individial using Slack through Matrix. appservice-slack style Channel bridging is upcoming feature, eventually Hacklab will move everything to Mautrix-slack when things ready.
+An Matrix<->Slack bridge for individial using Slack through Matrix.
 
 ## Set up
 - General setup finds from: https://docs.mau.fi/bridges/go/slack/authentication.html
 - Ask details Matrix-channel: `#general:hacklab.fi` if unsure.
 
-## Appservice-slack
-
+## Appservice-slack (deprecated)
 Up to date info about matrix-appservice-slack itself: https://github.com/matrix-org/matrix-appservice-slack
 
 ## What?
 
-An Matrix<->Slack bridge for bridging Slack-room to Matrix-room; puppets Slack-users to Matrix and for Slacks side an relaybot mimicks Matrix-user as Slack user. Also medias (mostly pictures tested) will work too. This will be deprecated once Mautrix-slack is "complete".
-
-## Set up
-- General setup finds from: https://github.com/matrix-org/matrix-appservice-slack
-- Ask details Matrix-channel: `#general:hacklab.fi` if you want to bridge Slack-room(s) to Matrix, as this needs collaboration from Slack workspace admin and hacklab.fi Matrix-admin.
+An Matrix<->Slack bridge for bridging Slack-room to Matrix-room; puppets Slack-users to Matrix and for Slacks side an relaybot mimicks Matrix-user as Slack user. Also medias (mostly pictures tested) will work too. This is deprecated.
 
 ### Double puppeting (recommended)
 
