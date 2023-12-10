@@ -16,13 +16,13 @@ At the moment `webhooks`, `feeds` and `github` are supported.
 
 bot user is `@hookshot:hacklab.fi` admins are `@tsw:hacklab.fi` and `@olmari:hacklab.fi`
 
-command: `!hookshot help` gives you basic information of things
+command: `hookshot help` gives you basic information of things
 
 ## webhooks
 
 Invite `@hookshot:hacklab.fi` to your channel, give it `moderator` rights and ask it to add a webhook endpoint for you
 
-```
+```chat
 /invite @hookshot:hacklab.fi
 /op @hookshot:hacklab.fi 50
 !hookshot webhook [nameforyourwebhook]
@@ -30,7 +30,7 @@ Invite `@hookshot:hacklab.fi` to your channel, give it `moderator` rights and as
 
 See the endpoint url from the admin room and send a test message to it:
 
-```
+```bash
 curl -X POST \
   -H 'Content-Type: application/json' \
   -d '{"username": "its a me mario", "text": "yup, message from webhook", "html": "<i>yup</i><h2>formatting</h2>"}' \
@@ -43,7 +43,7 @@ To delete a webhook
 
 Invite `@hookshot:hacklab.fi` to your channel, give it `moderator` rights and ask it to add a webhook endpoint for you
 
-```
+```chat
 /invite @hookshot:hacklab.fi
 /op @hookshot:hacklab.fi 50
 !hookshot feed https://example.com/feed/atom/ [nameyourfeed]
@@ -51,13 +51,13 @@ Invite `@hookshot:hacklab.fi` to your channel, give it `moderator` rights and as
 
 To list existing feeds
 
-```
+```chat
 !hookshot feed list
 ```
 
 And to remove a feed
 
-```
+```chat
 !hookshot feed remove https://example.com/feed/atom
 ```
 
@@ -75,7 +75,7 @@ Now that the channel is bridged to the repo you can use some commands to update 
 
 Creating new issue
 
-```
+```chat
 !gh create "Title text" "Description for the issue" "label1,label2"
 ```
 
@@ -83,7 +83,7 @@ You can omit the labels (but its best to always have some description)
 
 Closing an issue
 
-```
+```chat
 !gh close 3 "Yay, great job!"
 ```
 
@@ -97,7 +97,7 @@ Running on our matrix server under user `matrix-hookshot`, home directory in `/o
 
 Requires at least Node 16 and Rust installed. Those are installed via nvm and rustup. The base requirements for those are
 
-```
+```bash
 sudo apt update && sudo apt upgrade
 # rustup
 sudo apt install curl build-essential gcc make
@@ -179,7 +179,7 @@ on our server all the appservice configurations are collected in `/etc/matrix-sy
 
 so always modify the `registration.yml` and then copy it to into `/etc/matrix-synapse/app_service_config_files/matrix-hookshot.yml`
 
-```
+```bash
 sudo cp /opt/matrix-hookshot/matrix-hookshot/registration.yml /etc/matrix-synapse/app_service_config_files/matrix-hookshot.yaml
 sudo chown matrix-synapse:matrix-synapse /etc/matrix-synapse/app_service_config_files/matrix-hookshot.yaml
 sudo chmod 600 /etc/matrix-synapse/app_service_config_files/matrix-hookshot.yaml
@@ -191,7 +191,7 @@ And reload `matrix-synapse` after modifications.
 
 add two new location blocks
 
-```
+```nginx
         # hookshot
         location /[YOUR]/ {
                 include snippets/matrix-proxy-headers.conf;
@@ -219,7 +219,7 @@ And /[YOUR]/ is something that you can choose. Values `hookshot` and `webhook` a
 
 add unit file for this service
 
-```
+```conf
 [Unit]
 Description=Matrix Hookshot
 After=matrix-synapse.service
