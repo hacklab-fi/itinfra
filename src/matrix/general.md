@@ -67,14 +67,16 @@ Hacklab member using `hacklab.fi` homeserver, thus having MXID of `@user:hacklab
 
 Links to specific bridge instructions:
 
-- IRC: Heisenbridge, appservice-irc: https://github.com/hifi/heisenbridge https://github.com/matrix-org/matrix-appservice-irc/wiki
-- Telegram: [matrix-telegram.md](matrix-telegram.md)
-- Whatsapp: [matrix-whatsapp.md](matrix-whatsapp.md)
-- Facebook: [matrix-facebook.md](matrix-facebook.md)
-- Signal: [matrix-signal.md](matrix-signal.md)
-- Slack: [matrix-slack.md](matrix-slack.md)
-- Discord: [matrix-discord.md](matrix-discord.md)
-- GMessages: [matrix-gmessages.md](matrix-gmessages.md) (Links Google Messages to your Matrix, both SMS and RCS)
+- IRC:
+  - Heisenbridge: https://github.com/hifi/heisenbridge
+  - Appservice-irc (run by others!): https://github.com/matrix-org/matrix-appservice-irc/wiki
+- Telegram: [mautrix-telegram](telegram.md)
+- Whatsapp: [mautrix-whatsapp](whatsapp.md)
+- Facebook: [mautrix-facebook](facebook.md)
+- Signal: [mautrix-signal](signal.md)
+- Slack: [mautrix-slack](slack.md)
+- Discord: [mautrix-discord](discord.md)
+- GMessages: [mautrix-gmessages](gmessages.md) (Links Google Messages to your Matrix, both SMS and RCS)
 
 ## Other useful tools
 
@@ -83,3 +85,5 @@ Links to specific bridge instructions:
 Historical / deprecated:
 
 - SMS: We used to have "smsbot", doesn't scale and was impossible to setup without admin involvement.
+- Appservice-slack: Buggy and impossible to maintain, Mautrix-slack replaced this.
+- MX-puppet-discord: EOL, Mautrix-discord replaced this.
