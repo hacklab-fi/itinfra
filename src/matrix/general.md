@@ -76,6 +76,10 @@ Links to specific bridge instructions:
 - Discord: [matrix-discord.md](matrix-discord.md)
 - GMessages: [matrix-gmessages.md](matrix-gmessages.md) (Links Google Messages to your Matrix, both SMS and RCS)
 
+## Other useful tools
+
+- [Hookshot](hookshot.md) (Bot for connecting to external services like GitHub, GitLab, JIRA, general webhooks)
+
 Historical / deprecated:
 
 - SMS: We used to have "smsbot", doesn't scale and was impossible to setup without admin involvement.
