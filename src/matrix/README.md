@@ -2,7 +2,7 @@
 
 ## What?
 
-Matrix is versatile federated instant messaging protocol and we offer Matrix homeserver and services to Finnish hacklab members. 
+Matrix is versatile federated instant messaging protocol and we offer Matrix homeserver and services to Finnish hacklab members.
 
 Matrix also supports bridges, both puppeted and relaybot, to various other networks and systems, like IRC, Telegram, Whatsapp, SMS, etc for example.
 
@@ -38,7 +38,7 @@ In Matrix usernames allways starts with `@` -sign, rooms an spaces with `#` -sig
   - Surf to [hacklab.fi Element login](https://chat.hacklab.fi/#/login) and select `Continue with Hacklab Finland Keycloak`
   - Your local Hacklab should have implemented Single Sign-On method that is used by our Matrix-server login-flow, if not, nag them hard ;)
   - after SSO-autorization figure an username and continue
- 
+
 - Secondary method, eventually obsoleted:
   - Surf to [hacklab.fi Matrix user registration](https://matrix.hacklab.fi/register) website
   - Fill out your details
@@ -68,8 +68,8 @@ Hacklab member using `hacklab.fi` homeserver, thus having MXID of `@user:hacklab
 Links to specific bridge instructions:
 
 - IRC:
-  - Heisenbridge: https://github.com/hifi/heisenbridge
-  - Appservice-irc (run by others!): https://github.com/matrix-org/matrix-appservice-irc/wiki
+  - Heisenbridge: <https://github.com/hifi/heisenbridge>
+  - Appservice-irc (run by others!): <https://github.com/matrix-org/matrix-appservice-irc/wiki>
 - Telegram: [mautrix-telegram](telegram.md)
 - Whatsapp: [mautrix-whatsapp](whatsapp.md)
 - Facebook: [mautrix-facebook](facebook.md)
