@@ -1,6 +1,6 @@
 # Matrix<->Telegram bridge
 
-Up to date info about Mautrix-telegram itself: https://docs.mau.fi/bridges/python/telegram/index.html
+Up to date info about Mautrix-telegram itself: <https://docs.mau.fi/bridges/python/telegram/index.html>
 
 ## What?
 
@@ -20,7 +20,7 @@ You can replace the Matrix puppet of your Telegram account with your Matrix acco
 
 As with the Telegram account login, you must do this in a private chat with the bridge bot.
 
-How to get virgin Access-token: Use https://gitlab.com/vurpo/matrix-login/ for currently most effortless method.
+How to get virgin Access-token: Use <https://gitlab.com/vurpo/matrix-login/> for currently most effortless method.
 
 - Log in with `login-matrix <access token>`
 - After logging in, the default Matrix puppet of your Telegram account should leave rooms and your account should join all rooms the puppet was in automatically.

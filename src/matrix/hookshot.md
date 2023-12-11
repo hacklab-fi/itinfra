@@ -2,9 +2,9 @@
 
 Github, Gitlab, Jira and generic webhooks!
 
-https://matrix-org.github.io/matrix-hookshot/latest/hookshot.html
+<https://matrix-org.github.io/matrix-hookshot/latest/hookshot.html>
 
-https://github.com/matrix-org/matrix-hookshot
+<https://github.com/matrix-org/matrix-hookshot>
 
 ## What?
 
@@ -65,7 +65,7 @@ And to remove a feed
 
 Github has a github app registered for us `Hacklab.fi Matrix Hookshot` to use for the integration (@tsw:hacklab.fi, github username tswfi is the owner)
 
-Install the app https://github.com/apps/hacklab-fi-matrix-hookshot into your account / organisation you want to use with hookshot.
+Install the app <https://github.com/apps/hacklab-fi-matrix-hookshot> into your account / organisation you want to use with hookshot.
 
 To login to your github account talk with `@hookshot:hacklab.fi` and check with `github status` if you are already logged in and with `github login` you can complete oauth with github.
 
@@ -89,7 +89,7 @@ Closing an issue
 
 Hookshot github app will also push changes to the channel. Managing what to show is defined in the room state. TODO: document how to change these:
 
-Check all the available options in https://matrix-org.github.io/matrix-hookshot/latest/usage/room_configuration/github_repo.html#configuration
+Check all the available options in <https://matrix-org.github.io/matrix-hookshot/latest/usage/room_configuration/github_repo.html#configuration>
 
 ## How it was installed
 
@@ -105,7 +105,7 @@ sudo apt install curl build-essential gcc make
 sudo apt install build-essential libssl-dev
 ```
 
-basic steps for creating the user, installing necessary stuff and so on (note, the curl commands are taken from https://github.com/nvm-sh/nvm#installing-and-updating and https://rustup.rs/)
+basic steps for creating the user, installing necessary stuff and so on (note, the curl commands are taken from <https://github.com/nvm-sh/nvm#installing-and-updating> and <https://rustup.rs/>)
 
 ### Create user
 
