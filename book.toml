@@ -4,3 +4,7 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Hacklab IT Infra documentation"
+
+[output.html]
+git-repository-url = "https://github.com/hacklab-fi/itinfra"
+git-branch = "master"
