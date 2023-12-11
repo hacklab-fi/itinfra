@@ -1,6 +1,6 @@
 # Matrix<->Whatsapp bridge
 
-Up to date info about Mautrix-whatsapp itself: https://docs.mau.fi/bridges/go/whatsapp/index.html
+Up to date info about Mautrix-whatsapp itself: <https://docs.mau.fi/bridges/go/whatsapp/index.html>
 
 ## What?
 
@@ -24,7 +24,7 @@ There also exist instructions how to run Android in virtual machine so you could
 
 You can replace the Matrix puppet of your Whatsapp account with your Matrix account. When you do so, messages that you send from other Whatsapp clients will be sent from your Matrix account instead of the default puppet user.
 
-How to get virgin Access-token: Use https://gitlab.com/vurpo/matrix-login/ for currently most effortless method.
+How to get virgin Access-token: Use <https://gitlab.com/vurpo/matrix-login/> for currently most effortless method.
 
 As with the Whatsapp account login, you must do this in a private chat with the bridge bot.
 

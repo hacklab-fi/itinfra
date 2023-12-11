@@ -1,6 +1,6 @@
 # Matrix<->Google Messages bridge
 
-Up to date info about Mautrix-gmessages itself: https://docs.mau.fi/bridges/go/gmessages/index.html
+Up to date info about Mautrix-gmessages itself: <https://docs.mau.fi/bridges/go/gmessages/index.html>
 
 ## What?
 
@@ -23,7 +23,7 @@ This bridge uses the GMessages API, so your phone must be connected to the inter
 
 You can replace the Matrix puppet of your GMessages account with your Matrix account. When you do so, messages sent with GMessages app should be seen normally on Matrix-side.
 
-How to get virgin Access-token: Use https://gitlab.com/vurpo/matrix-login/ for currently most effortless method.
+How to get virgin Access-token: Use <https://gitlab.com/vurpo/matrix-login/> for currently most effortless method.
 
 As with the GMessages account login, you must do this in a private chat with the bridge bot.
 

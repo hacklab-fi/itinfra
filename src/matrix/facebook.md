@@ -1,6 +1,6 @@
 # Matrix<->Facebook bridge
 
-Up to date info about Mautrix-facebook itself: https://docs.mau.fi/bridges/python/facebook/index.html
+Up to date info about Mautrix-facebook itself: <https://docs.mau.fi/bridges/python/facebook/index.html>
 
 ## What?
 
@@ -19,7 +19,7 @@ An Matrix<->Facebook bridge for receiving and sending Facebook messages with Mat
 
 You can replace the Matrix puppet of your Messenger account with your Matrix account. When you do so, messages that you send from other Messenger clients will be sent from your Matrix account instead of the default puppet user.
 
-How to get virgin Access-token: Use https://gitlab.com/vurpo/matrix-login/ for currently most effortless method.
+How to get virgin Access-token: Use <https://gitlab.com/vurpo/matrix-login/> for currently most effortless method.
 
 As with the Messenger account login, you must do this in a private chat with the bridge bot.
 

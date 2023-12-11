@@ -3,18 +3,19 @@
 ## Mautrix-slack:
 Mautrix-slack (puppeting bridge, channel bridging is not available), Mautrix-slack is recommended for new setups, Appservice-slack is deprecated.
 
-Up to date info about Mautrix-slack itself: https://docs.mau.fi/bridges/go/slack/index.html
+Up to date info about Mautrix-slack itself: <https://docs.mau.fi/bridges/go/slack/index.html>
 
 ## What?
 
 An Matrix<->Slack bridge for individial using Slack through Matrix.
 
 ## Set up
-- General setup finds from: https://docs.mau.fi/bridges/go/slack/authentication.html
+- General setup finds from: <https://docs.mau.fi/bridges/go/slack/authentication.html>
 - Ask details Matrix-channel: `#general:hacklab.fi` if unsure.
 
 ## Appservice-slack (deprecated)
-Up to date info about matrix-appservice-slack itself: https://github.com/matrix-org/matrix-appservice-slack
+
+Up to date info about matrix-appservice-slack itself: <https://github.com/matrix-org/matrix-appservice-slack>
 
 ## What?
 
@@ -24,7 +25,7 @@ An Matrix<->Slack bridge for bridging Slack-room to Matrix-room; puppets Slack-u
 
 You can replace the Matrix puppet of your Slack account with your Matrix account. When you do so, messages that you send from other Slack clients will be sent from your Matrix account instead of the default puppet user.
 
-How to get virgin Access-token: Use https://gitlab.com/vurpo/matrix-login/ for currently most effortless method.
+How to get virgin Access-token: Use <https://gitlab.com/vurpo/matrix-login/> for currently most effortless method.
 
 As with the Slack account login, you must do this in a private chat with the bridge bot.
 
