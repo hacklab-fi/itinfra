@@ -1,6 +1,6 @@
 # hacklab.fi
 
-The main site for Hacklabs <https://www.hacklab.fi>
+The main site for Hacklabs <https://hacklab.fi>
 
 Jekyll site in Github Pages.
 
