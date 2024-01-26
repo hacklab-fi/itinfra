@@ -29,9 +29,8 @@ We've used apt repositories where possible and rest is "directly on the host" in
 Links to most of them:
 
 * mautrix-bridges: <https://docs.mau.fi/bridges/index.html>
-* mx-puppet-discord: <https://github.com/matrix-discord/mx-puppet-discord>
-* appservice-slack: <https://matrix-appservice-slack.readthedocs.io/en/latest/getting_started/>
 * heisenbridge: <https://github.com/hifi/heisenbridge>
+* Appservice-irc: <https://github.com/matrix-org/matrix-appservice-irc/wiki>
 
 # SSH related
 
