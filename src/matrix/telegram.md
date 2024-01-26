@@ -14,16 +14,9 @@ An Matrix<->Telegram bridge for receiving and sending Telegram messages with Mat
 - `help` gives you available commands, usually start with `login`
 - There is multiple ways of using and commanding the bot, so refer [Mautrix-telegram wiki](https://docs.mau.fi/bridges/python/telegram/authentication.html)
 
-### Double puppeting (recommended)
+### Double puppeting
 
-You can replace the Matrix puppet of your Telegram account with your Matrix account. When you do so, messages that you send from other Telegram clients will be sent from your Matrix account instead of the default puppet user.
-
-As with the Telegram account login, you must do this in a private chat with the bridge bot.
-
-How to get virgin Access-token: Use <https://gitlab.com/vurpo/matrix-login/> for currently most effortless method.
-
-- Log in with `login-matrix <access token>`
-- After logging in, the default Matrix puppet of your Telegram account should leave rooms and your account should join all rooms the puppet was in automatically.
+For hacklab.fi homeserver users this bridge does double-puppeting automatically.
 
 ### For bridging Matrix channel to Telegram group:
 

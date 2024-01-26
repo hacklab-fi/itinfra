@@ -22,11 +22,4 @@ There also exist instructions how to run Android in virtual machine so you could
 
 ### Double puppeting (recommended)
 
-You can replace the Matrix puppet of your Whatsapp account with your Matrix account. When you do so, messages that you send from other Whatsapp clients will be sent from your Matrix account instead of the default puppet user.
-
-How to get virgin Access-token: Use <https://gitlab.com/vurpo/matrix-login/> for currently most effortless method.
-
-As with the Whatsapp account login, you must do this in a private chat with the bridge bot.
-
-- Log in with `login-matrix <access token>`
-- After logging in, the default Matrix puppet of your Whatsapp account should leave rooms and your account should join all rooms the puppet was in automatically.
+For hacklab.fi homeserver users this bridge does double-puppeting automatically.
