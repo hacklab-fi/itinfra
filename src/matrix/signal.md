@@ -1,5 +1,7 @@
 # Matrix<->Signal bridge
 
+!!! THIS BRIDGE WILL BE REPLACED WITH BETTER/NEWER VERSION IN FEBRUARY 2024 AT THE LATEST !!!
+
 Up to date info about Mautrix-signal itself: <https://docs.mau.fi/bridges/python/signal/index.html>
 
 ## What?
