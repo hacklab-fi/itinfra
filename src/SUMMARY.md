@@ -14,6 +14,7 @@
   - [Matrix](./matrix/README.md)
     - [Discord](./matrix/discord.md)
     - [Facebook](./matrix/facebook.md)
+    - [Instagram](./matrix/instagram.md)
     - [GMessages](./matrix/gmessages.md)
     - [Signal](./matrix/signal.md)
     - [Slack](./matrix/slack.md)
