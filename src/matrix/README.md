@@ -65,18 +65,11 @@ Matrix has awesome integration for various other Chat/IM networks and services, 
 
 Hacklab member using `hacklab.fi` homeserver, thus having MXID of `@user:hacklab.fi`, has automatic access to use bridges trough hacklab.fi servers, hacklab members using some other homeserver need to ask to be added into bridge(s) manually, ask more in Matrix channel: [#general:hacklab.fi](https://matrix.to/#/#general:hacklab.fi)
 
-Links to specific bridge instructions:
+Links to specific bridge instructions in navigation sidebar, below some that has not been yet documented by us, but are in use:
 
 - IRC:
   - Heisenbridge: <https://github.com/hifi/heisenbridge>
   - Appservice-irc (run by others!): <https://github.com/matrix-org/matrix-appservice-irc/wiki>
-- Telegram: [mautrix-telegram](telegram.md)
-- Whatsapp: [mautrix-whatsapp](whatsapp.md)
-- Facebook: [mautrix-facebook](facebook.md)
-- Signal: [mautrix-signal](signal.md)
-- Slack: [mautrix-slack](slack.md)
-- Discord: [mautrix-discord](discord.md)
-- GMessages: [mautrix-gmessages](gmessages.md) (Links Google Messages to your Matrix, both SMS and RCS)
 
 ## Other useful tools
 
