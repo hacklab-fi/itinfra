@@ -91,7 +91,17 @@ Hookshot github app will also push changes to the channel. Managing what to show
 
 Check all the available options in <https://matrix-org.github.io/matrix-hookshot/latest/usage/room_configuration/github_repo.html#configuration>
 
-## How it was installed
+## Misc
+
+### Telegram bot entity
+
+For Telegram side there exist bot with userhandle `@HacklabFiHookshotBot` that is tied into this Hookshot matrix-bot entity. Its purpose is to provide an actual user for Hookshot messages in matrix-room that is bridged to Telegram.
+
+Bot is configured as "passive" bot, it has no reading rights inside Telegram room, it's purely echoing what hookshot says in matrix side in bridged room.
+
+To utilize this all that is needed to do is to add the bot into the bridged Telegram room in Telegram side.
+
+# How it was installed
 
 Running on our matrix server under user `matrix-hookshot`, home directory in `/opt/matrix-hookshot`.
 
