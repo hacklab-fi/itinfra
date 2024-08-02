@@ -10,9 +10,19 @@ An Matrix<->Facebook chat bridge for receiving and sending Facebook chat message
 
 ## Set up
 
+There are two flavours of this bridge, here are their main differences:
+
+#### @facebookbot
+
+Uses facebook.com, requires user to have activated Facebook account, but works without any additional software needed at setup time.
+
+#### @messengerbot
+
+Uses messenger.com, allows user to have deactivated Facebook account and still use Facebook Messenger, but needs Messenger phone application at least once to succeed.
+
 ### Logging in
 
-- Open chat with `@facebookbot:hacklab.fi`
+- Open chat with either `@messengerbot:hacklab.fi` or `@facebookbot:hacklab.fi` based on your flavour of bot
 - Send `login`
 - Follow any instructions bot gives.
 - Recent chats should now get portals automatically. Other chats will get portals as you receive messages.
