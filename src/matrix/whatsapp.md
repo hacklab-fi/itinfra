@@ -13,11 +13,12 @@ There also exist instructions how to run Android in virtual machine so you could
 
 ## Set up
 - Start a chat with the bridge bot `@whatsappbot:hacklab.fi`. The bot should say "This room has been registered as your bridge management/status room." if you started the chat correctly.
-- Run login
-- Log in by scanning the QR code. If the code expires before you scan it, the bridge will send an error to notify you.
-  - Open WhatsApp on your phone.
-  - Tap Menu or Settings and select WhatsApp Web.
-  - Point your phone at the image sent by the bot to capture the code.
+  - To log in by entering a 8-letter code on your phone, enter: `login +358123456789`.
+  - To log in by scanning the QR code, enter: `login`. If the code expires before you scan it, the bridge will send an error to notify you.
+- Open WhatsApp on your phone.
+- Tap Menu  or Settings  and select Linked devices.
+  - Log in by QR-code: Point your phone at the image sent by the bot to capture the code.
+  - Log in with pairing code: Tap "Link with a phone number instead".
 - Finally, the bot should inform you of a successful login and the bridge should start creating portal rooms for all your WhatsApp groups and private chats.
 
 ### Double puppeting (recommended)
