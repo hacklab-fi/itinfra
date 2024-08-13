@@ -1,10 +1,5 @@
 # Matrix<->Signal bridge
 
-17.2.2024:
-!!! THE OLD VERSION OF THIS BRIDGE IS REPLACED WITH BETTER/NEWER VERSION, USERS NEED TO LINK/LOGIN AGAIN !!!
-
-Most notable change is that there is no primary device method available in the bridge.
-
 Up to date info about Mautrix-signal itself: <https://docs.mau.fi/bridges/go/signal/index.html>
 
 ## What?
