@@ -4,7 +4,7 @@ Up to date info about Mautrix-whatsapp itself: <https://docs.mau.fi/bridges/go/w
 
 ## What?
 
-An Matrix<->Whatsapp bridge for receiving and sending Whatsapp messages with Matrix-client, purely for bringing your personal Whatsapp to your Matrix-client, so you can't mix and bridge Matrix and Whatsapp users like with most bridges.
+An Matrix<->Whatsapp bridge for receiving and sending Whatsapp messages with Matrix-client, purely for bringing your personal Whatsapp to your Matrix-client, does have relaybot support.
 
 ## Special notes
 This bridge uses the web API, so your phone must be connected to the internet for the bridge to work. The WhatsApp app doesn't need to be running all the time, but it needs to be allowed to wake up when receiving messages (should work by default). The web API is used instead of the main client API to avoid bans (WhatsApp will ban unofficial clients).
