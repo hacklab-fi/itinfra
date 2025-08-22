@@ -1,4 +1,4 @@
-# Matrix<->Instagram bridge
+# Matrix<->Meta (Facebook chat and Instaram chat) bridge
 
 This instance uses Mautrix-Meta software
 
@@ -6,13 +6,15 @@ Up to date info about bridge itself: <https://docs.mau.fi/bridges/go/meta/index.
 
 ## What?
 
-An Matrix<->Instagram chat bridge for receiving and sending Instagram chat messages with Matrix-client.
+An Matrix<->Facebook+Instagram chat bridge for receiving and sending Facebook and Instagram chat messages with Matrix-client.
 
 ## Set up
 
+There are two flavours of this bridge, here are their main differences:
+
 ### Logging in
 
-- Open chat with `@instagrambot:hacklab.fi`
+- Open chat with either `@meta:hacklab.fu`.
 - Send `login`
 - Follow any instructions bot gives.
 - Recent chats should now get portals automatically. Other chats will get portals as you receive messages.
