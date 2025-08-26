@@ -18,7 +18,7 @@ Room refers to the Matrix room to be bridged.
 2. Inviting the Discord bot requires "application (bot) management" permissions in the Channel's Server
 3. Get a Discord bot invite link from one of Hacklab.fi admins at `#matrix:hacklab.fi`. Keep the link private as it can be used to invite the bot to any Server
 4. Invite the Discord bot to your Server using the link. The bridge will need all the preselected permissions
-5. Invite `@discordbotnamehere:hacklab.fi` to your Room. The bot should have permissions to invite users
+5. Invite `@discordbot:hacklab.fi` to your Room. The bot should have permissions to invite users
 6. Obtain the ChannelID of the Channel with any method such as:
     - Any client:
         - Open the Channel
