@@ -13,7 +13,7 @@
   - [Jitsi](./services/jitsi.md)
   - [Matrix](./matrix/README.md)
     - [Discord](./matrix/discord.md)
-    - [Meta](./matrix/meta.md) (Facebook+Instagram)
+    - [Meta](./matrix/meta.md) <--! Facebook+Instagram -->
     - [GMessages](./matrix/gmessages.md)
     - [Signal](./matrix/signal.md)
     - [Slack](./matrix/slack.md)
