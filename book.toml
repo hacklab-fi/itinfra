@@ -1,7 +1,8 @@
 [book]
 authors = ["Tatu Wikman"]
 language = "en"
-multilingual = false
+# multilingual = false
+# too old version of mdbook
 src = "src"
 title = "Hacklab IT Infra documentation"
 
