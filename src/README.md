@@ -7,3 +7,5 @@ Site is WIP and more information will be added as time permits.
 * [Websites](/websites/)
 * [Services](/services/)
 * [Sysops](./sysops/)
+
+Feel free to document more and information in the github repository [https://github.com/hacklab-fi/itinfra](https://github.com/hacklab-fi/itinfra)

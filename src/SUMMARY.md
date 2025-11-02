@@ -8,9 +8,8 @@
   - [robotit.hacklab.fi](./websites/robotit.hacklab.fi.md)
   - [hsf.hacklab.fi](./websites/hsf.hacklab.fi.md)
 - [Services](./services/README.md)
-  - [Mumble](./services/mumble.md)
   - [Discourse](./services/discourse.md)
-  - [Jitsi](./services/jitsi.md)
+  - [Element Call](./services/element_call.md)
   - [Matrix](./matrix/README.md)
     - [Discord](./matrix/discord.md)
     - [Meta](./matrix/meta.md) <--! Facebook+Instagram -->
@@ -27,4 +26,7 @@
   - [Github](./sysops/github.md)
   - [GCP](./sysops/gcp.md)
     - [DNS](./sysops/dns.md)
+- [Deprecated services](./deprecated_services/README.md)
+  - [Jitsi](./deprecated_services/jitsi.md)
+  - [Mumble](./deprecated_services/mumble.md)
 - [Thanks](./thanks.md)
