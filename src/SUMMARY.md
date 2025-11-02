@@ -20,6 +20,7 @@
     - [Whatsapp](./matrix/whatsapp.md)
     - [Hookshot](./matrix/hookshot.md)
   - [Peertube](./services/peertube.md)
+  - [Mastodon](./services/mastodon.md)
 - [Sysops](./sysops/README.md)
   - [Upcloud](./sysops/upcloud.md)
     - [Server admin minutes](./sysops/upcloud/server-admin-minutes.md)
