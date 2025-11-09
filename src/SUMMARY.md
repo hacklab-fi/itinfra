@@ -19,6 +19,7 @@
     - [Telegram](./matrix/telegram.md)
     - [Whatsapp](./matrix/whatsapp.md)
     - [Hookshot](./matrix/hookshot.md)
+    - [Meowlnir](./matrix/meowlnir.md)
   - [Peertube](./services/peertube.md)
   - [Mastodon](./services/mastodon.md)
 - [Sysops](./sysops/README.md)
