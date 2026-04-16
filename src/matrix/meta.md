@@ -23,6 +23,4 @@ There are two flavours of this bridge, here are their main differences:
 
 For hacklab.fi homeserver users this bridge does double-puppeting automatically.
 
-## Note
-
-Info taken and adapted to our use from [Mautrix-meta wiki](https://docs.mau.fi/bridges/go/meta/index.html), so in case of info gets outdated, try refer there.
+For users from other homeservers who has access to use the bot can use 'login-matrix'-command to manually enable double-puppeting.

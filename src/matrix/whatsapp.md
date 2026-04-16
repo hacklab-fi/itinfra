@@ -24,3 +24,5 @@ There also exist instructions how to run Android in virtual machine so you could
 ### Double puppeting (recommended)
 
 For hacklab.fi homeserver users this bridge does double-puppeting automatically.
+
+For users from other homeservers who has access to use the bot can use 'login-matrix'-command to manually enable double-puppeting.

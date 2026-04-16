@@ -1,27 +1,18 @@
 # Matrix<->Telegram bridge
 
-Up to date info about Mautrix-telegram itself: <https://docs.mau.fi/bridges/python/telegram/index.html>
+Up to date info about Mautrix-telegram itself: <https://docs.mau.fi/bridges/go/telegram/index.html>
 
 ## What?
 
-An Matrix<->Telegram bridge for receiving and sending Telegram messages with Matrix-client, bridging groupchats, puppeting, relaybot... Full integration.
+An puppeting Matrix<->Telegram bridge for receiving and sending Telegram messages with Matrix-client, has relaybot possibility.
 
 ## Set up
+- Start a chat with the bridge bot `@telegrambot:hacklab.fi`. The bot should say "This room has been registered as your bridge management/status room." if you started the chat correctly.
+- Issue `login` to see login possibilities
+- Follow instructions bot tells you
 
-### For using own Telegram through Matrix:
-
-- On Matrix: Open chat with `@telegrambot:hacklab.fi`
-- `help` gives you available commands, usually start with `login`
-- There is multiple ways of using and commanding the bot, so refer [Mautrix-telegram wiki](https://docs.mau.fi/bridges/python/telegram/authentication.html)
-
-### Double puppeting
+### Double puppeting (recommended)
 
 For hacklab.fi homeserver users this bridge does double-puppeting automatically.
 
-### For bridging Matrix channel to Telegram group:
-
-- On Matrix: Invite `@telegrambot:hacklab.fi` to Matrix-room to be bridged
-- On Telegram: invite `@hacklabbridgebot` to channel
-- On Matrix: Get the ID of the Telegram chat with the `!tg id` and the Telegram-bot should answer with group ID.
-- On Matrix: Run `!tg bridge <chat ID>` in the room you want to bridge.
-- Refer [Mautrix-telegram wiki](https://docs.mau.fi/bridges/python/telegram/creating-and-managing-chats.html) for detailed up to date instructions
+For users from other homeservers who has access to use the bot can use 'login-matrix'-command to manually enable double-puppeting.

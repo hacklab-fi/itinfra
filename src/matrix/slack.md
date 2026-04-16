@@ -15,3 +15,5 @@ An puppeting Matrix<->Slack bridge for receiving and sending Slack messages with
 ### Double puppeting (recommended)
 
 For hacklab.fi homeserver users this bridge does double-puppeting automatically.
+
+For users from other homeservers who has access to use the bot can use 'login-matrix'-command to manually enable double-puppeting.

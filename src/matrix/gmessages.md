@@ -22,3 +22,5 @@ This bridge uses the GMessages API, so your phone must be connected to the inter
 ### Double puppeting
 
 For hacklab.fi homeserver users this bridge does double-puppeting automatically.
+
+For users from other homeservers who has access to use the bot can use 'login-matrix'-command to manually enable double-puppeting.

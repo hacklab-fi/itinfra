@@ -18,6 +18,4 @@ You can use your Signal app on an phone as your primary device, or run Signal ap
 
 For hacklab.fi homeserver users this bridge does double-puppeting automatically.
 
-## Note
-
-Info taken and adapted to our use from [Mautrix-signal wiki](https://docs.mau.fi/bridges/go/signal/index.html), so in case of info gets outdated, try referring there.
+For users from other homeservers who has access to use the bot can use 'login-matrix'-command to manually enable double-puppeting.
