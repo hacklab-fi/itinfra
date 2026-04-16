@@ -10,11 +10,7 @@ An Matrix<->Facebook+Instagram chat bridge for receiving and sending Facebook an
 
 ## Set up
 
-There are two flavours of this bridge, here are their main differences:
-
-### Logging in
-
-- Open chat with either `@meta:hacklab.fu`.
+- Start a chat with `@meta:hacklab.fi`.
 - Send `login`
 - Follow any instructions bot gives.
 - Recent chats should now get portals automatically. Other chats will get portals as you receive messages.
