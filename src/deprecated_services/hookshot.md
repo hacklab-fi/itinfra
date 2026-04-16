@@ -1,3 +1,9 @@
+# Hookshot - Deprecated
+
+Hacklab had a Hookshot Matrix service but it was deprecated and removed from service because it was constantly not working and gave troubles. Has been replaced with Maubot instance with suitable plugins, namely RSS and GIT for the context of Hookshot capabilities.
+
+# Old content for history
+
 # Matrix Hookshot
 
 Github, Gitlab, Jira and generic webhooks!
