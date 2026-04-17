@@ -76,7 +76,8 @@ Links to specific bridge instructions in navigation sidebar, below some that has
 
 ## Other useful tools
 
-- RSS + GIT maubot instance links here when ready.
+- [RSS](./rss.md)-bot for getting RSS-feeds into an Matrix-room.
+- [GIT](./git.md)-bot for controlling and/or getting notifications when something happens on an git-repository (issues, PR, merges, etc), supports Github and Gitlab.
 
 Historical / deprecated:
 
