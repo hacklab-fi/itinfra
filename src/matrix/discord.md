@@ -2,7 +2,7 @@
 
 ## Note:
 
-This bridge will get an "megafied" update in couple months (written in April 2026), it will likely be in-place update, but nothing is guaranteed until ready.
+This bridge will get an ["megafied"](https://mau.fi/blog/2024-h1-mautrix-updates/#introducing-megabridge) update in couple months (written in April 2026), it will likely be in-place update, but nothing is guaranteed until ready.
 
 ## What?
 
