@@ -71,7 +71,7 @@ Hacklab member using `hacklab.fi` homeserver, thus having MXID of `@user:hacklab
 Links to specific bridge instructions in navigation sidebar, below some that has not been yet documented by us, but are in use:
 
 - IRC:
-  - Heisenbridge: <https://github.com/hifi/heisenbridge> (Will be depracated soon'ish when [Mautrix-irc](https://docs.mau.fi/bridges/go/irc/index.html) matures enough, official development also halted in favour of Mautrix-irc, written in April 2026).
+  - Heisenbridge: <https://github.com/hifi/heisenbridge> (Will be depracated soon'ish when [Mautrix-irc](./irc.md) matures enough, official development also halted in favour of Mautrix-irc, written in April 2026).
   - Appservice-irc (run by others!): <https://github.com/matrix-org/matrix-appservice-irc/wiki>
 
 ## Other useful tools
@@ -80,7 +80,7 @@ Links to specific bridge instructions in navigation sidebar, below some that has
 
 Historical / deprecated:
 
-- SMS: We used to have "smsbot", doesn't scale and was impossible to setup without admin involvement. Mautrix-gmessages we do have for achieving simikar at least with help of Android phone.
-- Appservice-slack: Buggy and impossible to maintain, Mautrix-slack replaced this.
-- MX-puppet-discord: EOL, Mautrix-discord replaced this.
-- Hookshot, Buggy and impossible to maintain, Maubot with rss and git plugins replaced this.
+- SMS: We used to have "smsbot", doesn't scale and was impossible to setup without admin involvement, replaced by [Mautrix-gmessages](./gmessages.md).
+- Appservice-slack: Buggy and impossible to maintain, replaced by [Mautrix-slack](./slack.md).
+- MX-puppet-discord: EOL, replaced by [Mautrix-discord](./discord.md).
+- Hookshot, Buggy and impossible to maintain, Replaced by 2 Maubot plugins: [RSS](./rss.md) and [GIT](./git.md).
